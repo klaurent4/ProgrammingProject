@@ -13,10 +13,10 @@ computerChoice = Heads;
 computerChoice = Tails;
 function equalityTest (userChoice) {
     if (userChoice == computerChoice) {
-        return alert ('You guessed right! The coin flip landed on [YOUR CHOICE HERE]');
+        return alert ('You guessed right! The coin flip landed on ',userChoice,'');
     }
     else
-    return alert ('Sorry, the coin flip landed on [NOT YOUR CHOICE HERE]');
+    return alert ('Sorry, the coin flip landed on ',userChoice,'');
 }
 var birthYear
 birthYear = prompt ('Enter birth year')

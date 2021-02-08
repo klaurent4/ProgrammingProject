@@ -18,3 +18,17 @@ function equalityTest (userChoice) {
     else
     return alert ('Sorry, the coin flip landed on [NOT YOUR CHOICE HERE]');
 }
+var birthYear
+birthYear = prompt ('Enter birth year')
+currentYear = 2021
+age = currentYear - birthYear
+function test (age) {
+    if (age > 21) {
+        return alert("You are old enough to drink in the US") }
+        if (age == 21) {
+            return alert("You are old enough to drink in the US... barely")
+        }
+        if (age < 21) {
+            return alert("Sorry, you are not old enough to drink in the US")
+        }
+}

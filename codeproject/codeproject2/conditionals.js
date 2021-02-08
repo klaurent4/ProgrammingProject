@@ -9,8 +9,10 @@ fucntion ;test (randomNumber) ;{
         return "Tails";
     }
 }
-computerChoice = Heads;
-computerChoice = Tails;
+0 = heads
+1 = tails
+computerChoice = 0;
+computerChoice = 1;
 function equalityTest (userChoice) {
     if (userChoice == computerChoice) {
         return alert ('You guessed right! The coin flip landed on ',userChoice,'');
